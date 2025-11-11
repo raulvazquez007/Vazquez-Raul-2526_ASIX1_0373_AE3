@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Formulario</title><!-- Título que aparece en la pestaña -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><!-- Importa los iconos de Font Awesome (para el icono de flecha) -->
+</head>
+<body>
+  <header>
+    <h1>Suscripción a Newsletter</h1><!-- Título principal -->
+    <a href="./index.html"><i class="fa-solid fa-arrow-left">Volver</i></a><!-- Icono de flecha hacia atrás y texto "Volver" -->
+    <nav><!-- Menú de navegación -->
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="discografia.html">Discografía</a></li>
+        <li><a href="album1.html">Rockport Espacial</a></li>
+        <li><a href="album2.html">BBZ Trashtape</a></li>
+        <li><a href="album3.html">The Giant</a></li>
+        <li><a href="Formulario.html">Formulario</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <fieldset><!-- fieldset agrupa campos relacionados -->
+      <label>Nombre:<input type="text" required></label><br>
+      <label>Apellidos:<input type="text" required></label><br>
+      </fieldset>
+      <fieldset><!-- fieldset agrupa campos relacionados -->
+      <label>Edad:<input type="number" min="10" max="120" required></label><br><!-- Campo para introducir edad con control numérico -->
+      </fieldset>
+      <fieldset><!-- fieldset agrupa campos relacionados -->
+      <label>País:
+        <select required><!-- Menú desplegable -->
+          <option value="">--Selecciona un país--</option>
+          <option>Francia</option>
+          <option>España</option>
+          <option>Latinoamérica</option>
+          <option>Otro</option>
+        </select>
+      </label><br>
+      </fieldset>
+      <fieldset><!-- fieldset agrupa campos relacionados -->
+      <label>Correo:<input type="email" required></label><br><!-- Campo de correo electrónico -->
+      </fieldset>
+      <fieldset><!-- fieldset agrupa campos relacionados -->
+      <label>Intereses:</label><br>
+        <input type="checkbox"> Música<br><!-- Cada checkbox permite marcar más de una opción -->
+        <input type="checkbox"> Conciertos<br><!-- Cada checkbox permite marcar más de una opción -->
+        <input type="checkbox"> Merchandising<br><!-- Cada checkbox permite marcar más de una opción -->
+      
+      </fieldset>
+      <fieldset><!-- fieldset agrupa campos relacionados -->
+      <label>Comentarios:<br>
+        <textarea rows="4" required></textarea>
+      </label><br>
+      </fieldset>
+      <fieldset><!-- fieldset agrupa campos relacionados -->
+      <input type="submit" value="Enviar"><!-- Botón de envío del formulario -->
+      </fieldset>
+    </form>
+  </main>
+</body>
+</html>

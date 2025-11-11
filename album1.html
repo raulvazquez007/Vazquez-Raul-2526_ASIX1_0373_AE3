@@ -2,47 +2,55 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>The Kidd Tape — Álbum</title>
+  <title>Rockport Espacial — Álbum</title><!-- Título mostrado en la pestaña -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><!-- Importa los iconos de Font Awesome (para el icono de flecha) -->
 </head>
 <body>
   <header>
-    <h1>The Kidd Tape</h1>
-    <nav>
-      <ul>
+    <h1>Rockport Espacial</h1>
+    <a href="./index.html"><i class="fa-solid fa-arrow-left">Volver</i></a><!-- Icono de flecha hacia atrás y texto "Volver" -->
+    <nav><!-- Menú de navegación -->
+      <ul><!-- Lista desordenada con los diferentes enlaces -->
         <li><a href="index.html">Inicio</a></li>
         <li><a href="discografia.html">Discografía</a></li>
-        <li><a href="album1.html">The Kidd Tape</a></li>
-        <li><a href="album2.html">Love Is War</a></li>
-        <li><a href="album3.html">Joker II</a></li>
-        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="album1.html">Rockport Espacial</a></li>
+        <li><a href="album2.html">BBZ Trashtape</a></li>
+        <li><a href="album3.html">The Giant</a></li>
+        <li><a href="Formulario.html">Formulario</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <figure>
-      <img src="assets/portada.png" alt="Portada The Kidd Tape">
-    </figure>
 
-    <p><strong>Año:</strong> 2017</p>
+      <img src="./Imagenes/Portada_Rockport_Espacial.jpg" alt="Portada The Rockport Espacial" width="300"><!-- Imagen de la portada del álbum -->
 
-    <h3>Lista de canciones (puedes modificarla)</h3>
-    <ol>
-      <li>Canción 1</li>
-      <li>Canción 2</li>
-      <li>Canción 3</li>
+    <p><strong>Fecha de publicación:</strong> 12 de junio de 2020</p>
+
+    <h3>Lista de canciones</h3><!-- Lista de canciones -->
+    <ol><!-- Lista numerada -->
+      <li>Nani</li>
+      <li>Kikiki</li>
+      <li>I'm Ballin</li>
+      <li>Ma Vie</li>
+      <li>Level Up</li>
     </ol>
 
-    <h3>Reproductor (solo HTML)</h3>
+    <h2>Canciones para escuchar</h2><!-- Sección de audios para escuchar -->
+    <h3>Cancion Nani</h3><!-- Canción 1 -->
     <audio controls>
-      <source src="assets/tu_audio.mp3" type="audio/mpeg">
-      Tu navegador no soporta audio.
+      <source src="./Canciones/Nani.mp3" type="audio/mpeg"><!-- Ruta al audio -->
     </audio>
-
+    <br>
+    <h3>Cancion Kikiki</h3><!-- Canción 2 -->
+    <audio controls>
+      <source src="./Canciones/Kikiki.mp3" type="audio/mpeg"><!-- Ruta al audio -->
+    </audio>
+    <br>
+    <h3>Cancion I'm Ballin</h3><!-- Canción 3 -->
+    <audio controls>
+      <source src="./Canciones/Im_ballin.mp3" type="audio/mpeg"><!-- Ruta al audio -->
+    </audio>
   </main>
-
-  <footer>
-    <p>Reemplaza tu_audio.mp3 por un archivo real dentro de /assets.</p>
-  </footer>
 </body>
 </html>
